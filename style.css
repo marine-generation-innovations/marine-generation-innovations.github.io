@@ -83,6 +83,7 @@ td{
 .top-bar{
   border-top: 2px solid #7FB6E6;
   background-color: #70A1CC;
+  border-bottom: 2px solid #4f8bbf;
   padding: 0.5em;
 }
 
@@ -94,7 +95,7 @@ td{
   min-height: 500px;
   background-color: #fafafa;
   padding: 0.75em 0 2em;
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5) inset;
 }
 
 .pad-right{
