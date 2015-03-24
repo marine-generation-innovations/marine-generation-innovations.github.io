@@ -10,8 +10,7 @@ body, html, div{
 }
 
 h1{
-  font-size: 2.1em;
-  padding-left: 1em;
+  font-size: 4em;
   font-family: 'Gentium Book Basic', serif;
 }
 
@@ -23,6 +22,28 @@ h2{
 
 td{
   padding: 0 0.5em;
+}
+
+.icon{
+  font-size: 2em;
+  padding-left: 1em;
+}
+
+.title-text{
+  padding: .25em .25em 0 0;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+.gi{
+  padding: 2.5em 0 0 0;
+}
+
+.title-text-mini{
+  font-size: 2em;
+  padding: 0;
+  margin: -.5em 0 -.5em -.25em;
+  color: #111;
 }
 
 .icon-stack{
@@ -120,12 +141,24 @@ td{
   width: 50%;
 }
 
+.s10{
+  width: 10px;
+}
+
 .s125{
   width: 125px;
 }
 
-.650{
-  width: 650px;
+.s100{
+  width: 100px;
+}
+
+.s240{
+  width: 240px;
+}
+
+.s250{
+  width: 250px;
 }
 
 .right{
