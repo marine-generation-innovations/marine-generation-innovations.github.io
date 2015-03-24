@@ -10,9 +10,9 @@ body, html, div{
 }
 
 h1{
-  font-weight: 300;
-  font-size: 1.9em;
+  font-size: 2.1em;
   padding-left: 1em;
+  font-family: 'Gentium Book Basic', serif;
 }
 
 h2{
@@ -50,8 +50,9 @@ td{
   top: 8px;
 }
 
-.no-bullets{
+.bar-list{
   list-style: none;
+  padding: .25em 0;
 }
 
 .bordered .cog-icon{
@@ -60,10 +61,6 @@ td{
   vertical-align: bottom;
   top: 20px;
   left: 2px;
-}
-
-.shadow{
-  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .shadow-inverted{
@@ -88,7 +85,12 @@ td{
 }
 
 .top-bar a{
-  color: #555;
+  color: #444;
+  text-decoration: none;
+}
+
+.top-bar a:hover{
+  text-decoration: underline;
 }
 
 .document{
@@ -118,8 +120,8 @@ td{
   width: 50%;
 }
 
-.s140{
-  width: 140px;
+.s125{
+  width: 125px;
 }
 
 .650{
